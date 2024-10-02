@@ -1,5 +1,26 @@
 # @solana/rpc-spec
 
+## 2.0.0-rc.2
+
+### Patch Changes
+
+-   [#3146](https://github.com/solana-labs/solana-web3.js/pull/3146) [`628177f`](https://github.com/solana-labs/solana-web3.js/commit/628177ffcc1be1c40e0c82d80743b07f695cfe69) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Rename `RpcRequest` type to `RpcApiRequestPlan` to make room for new `RpcRequest` type
+
+-   [#3145](https://github.com/solana-labs/solana-web3.js/pull/3145) [`1c25dd4`](https://github.com/solana-labs/solana-web3.js/commit/1c25dd4069a3a8f5599285c9b0eaeb71a2f897d1) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Rename `RpcResponse` type to `RpcResponseData` to make room for a new `RpcResponse` type
+
+-   [#3213](https://github.com/solana-labs/solana-web3.js/pull/3213) [`3fc388f`](https://github.com/solana-labs/solana-web3.js/commit/3fc388f0b40243436a3ecbcd2af27ea8efa683e4) Thanks [@mcintyre94](https://github.com/mcintyre94)! - Clean up SolanaRpcApi: no longer extend RpcApiMethods + remove export
+
+-   [#3147](https://github.com/solana-labs/solana-web3.js/pull/3147) [`4f87d12`](https://github.com/solana-labs/solana-web3.js/commit/4f87d12cf942fbd4f427005d5ac41671ce28a22c) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Add new `RpcRequest` and `RpcResponse` types with `RpcRequestTransformer` and `RpcResponseTransformer` functions
+
+-   [#3150](https://github.com/solana-labs/solana-web3.js/pull/3150) [`a705413`](https://github.com/solana-labs/solana-web3.js/commit/a705413e357fb5c5907c5fc1df17d241bc5c0f76) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Make `RpcApi` use new `RpcRequestTransformer` and `RpcResponseTransformer`
+
+-   [#3148](https://github.com/solana-labs/solana-web3.js/pull/3148) [`e1cb697`](https://github.com/solana-labs/solana-web3.js/commit/e1cb697d66dc906aa2433965452417e03cf86e13) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Make `RpcTransport` return new `RpcReponse` type instead of parsed JSON data
+
+-   [#3137](https://github.com/solana-labs/solana-web3.js/pull/3137) [`fd72c2e`](https://github.com/solana-labs/solana-web3.js/commit/fd72c2ed1edad488318fa5d3e285f04852f4210a) Thanks [@mcintyre94](https://github.com/mcintyre94)! - Add edge-light to package exports
+
+-   Updated dependencies [[`1c25dd4`](https://github.com/solana-labs/solana-web3.js/commit/1c25dd4069a3a8f5599285c9b0eaeb71a2f897d1), [`fd72c2e`](https://github.com/solana-labs/solana-web3.js/commit/fd72c2ed1edad488318fa5d3e285f04852f4210a)]:
+    -   @solana/rpc-spec-types@2.0.0-rc.2
+
 ## 2.0.0-rc.1
 
 ### Patch Changes

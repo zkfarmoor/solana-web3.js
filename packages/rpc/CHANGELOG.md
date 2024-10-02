@@ -1,5 +1,25 @@
 # @solana/rpc
 
+## 2.0.0-rc.2
+
+### Patch Changes
+
+-   [#3161](https://github.com/solana-labs/solana-web3.js/pull/3161) [`9dfca45`](https://github.com/solana-labs/solana-web3.js/commit/9dfca454355819444bad29e48602886428ba4cac) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Change first argument of `onIntegerOverflow` handler from `methodName: string` to `request: RpcRequest`
+
+-   [#3148](https://github.com/solana-labs/solana-web3.js/pull/3148) [`e1cb697`](https://github.com/solana-labs/solana-web3.js/commit/e1cb697d66dc906aa2433965452417e03cf86e13) Thanks [@lorisleiva](https://github.com/lorisleiva)! - Make `RpcTransport` return new `RpcReponse` type instead of parsed JSON data
+
+-   [#3137](https://github.com/solana-labs/solana-web3.js/pull/3137) [`fd72c2e`](https://github.com/solana-labs/solana-web3.js/commit/fd72c2ed1edad488318fa5d3e285f04852f4210a) Thanks [@mcintyre94](https://github.com/mcintyre94)! - Add edge-light to package exports
+
+-   Updated dependencies [[`628177f`](https://github.com/solana-labs/solana-web3.js/commit/628177ffcc1be1c40e0c82d80743b07f695cfe69), [`9dfca45`](https://github.com/solana-labs/solana-web3.js/commit/9dfca454355819444bad29e48602886428ba4cac), [`1c25dd4`](https://github.com/solana-labs/solana-web3.js/commit/1c25dd4069a3a8f5599285c9b0eaeb71a2f897d1), [`3fc388f`](https://github.com/solana-labs/solana-web3.js/commit/3fc388f0b40243436a3ecbcd2af27ea8efa683e4), [`4f87d12`](https://github.com/solana-labs/solana-web3.js/commit/4f87d12cf942fbd4f427005d5ac41671ce28a22c), [`29d5113`](https://github.com/solana-labs/solana-web3.js/commit/29d5113b2c6f8c7907127ad992bad1329edbd7e7), [`a705413`](https://github.com/solana-labs/solana-web3.js/commit/a705413e357fb5c5907c5fc1df17d241bc5c0f76), [`bf07a60`](https://github.com/solana-labs/solana-web3.js/commit/bf07a606768eef7cd37c1dd0e2c0a35fe3b12f24), [`9dfca45`](https://github.com/solana-labs/solana-web3.js/commit/9dfca454355819444bad29e48602886428ba4cac), [`747b9ab`](https://github.com/solana-labs/solana-web3.js/commit/747b9abb90c6baeec73a284d87a324bf3caeab03), [`38faba0`](https://github.com/solana-labs/solana-web3.js/commit/38faba05fab479ddbd95d0e211744d203f8aa823), [`e1cb697`](https://github.com/solana-labs/solana-web3.js/commit/e1cb697d66dc906aa2433965452417e03cf86e13), [`28ca5d1`](https://github.com/solana-labs/solana-web3.js/commit/28ca5d17d4c574a690a5bf29d4f1fe0ad8f5883c), [`02cefa7`](https://github.com/solana-labs/solana-web3.js/commit/02cefa7cc98463e602f78a8acc10d85c37f03481), [`fd72c2e`](https://github.com/solana-labs/solana-web3.js/commit/fd72c2ed1edad488318fa5d3e285f04852f4210a)]:
+    -   @solana/rpc-spec@2.0.0-rc.2
+    -   @solana/rpc-transformers@2.0.0-rc.2
+    -   @solana/rpc-api@2.0.0-rc.2
+    -   @solana/rpc-types@2.0.0-rc.2
+    -   @solana/errors@2.0.0-rc.2
+    -   @solana/rpc-transport-http@2.0.0-rc.2
+    -   @solana/fast-stable-stringify@2.0.0-rc.2
+    -   @solana/functional@2.0.0-rc.2
+
 ## 2.0.0-rc.1
 
 ### Patch Changes
